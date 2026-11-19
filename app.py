@@ -1,10 +1,4 @@
-"""12주차 배포 예제 앱: 11주차 대시보드를 웹에 올릴 수 있게 정리한 판.
 
-GitHub 저장소에 이 파일, requirements.txt, sales.csv를 같은 폴더로 올리고
-Community Cloud의 Main file path에 app.py(하위 폴더에 두었다면 그 경로)를 적습니다.
-개인 프로젝트에서는 sales.csv 대신 출처가 분명한 공개 데이터를 씁니다(수업 예제 데이터 제외).
-내 컴퓨터에서 실행: python -m streamlit run app.py
-"""
 # Path: app.py가 있는 폴더를 찾을 때 씁니다. 배포에서 가장 중요한 줄의 재료입니다.
 from pathlib import Path
 
